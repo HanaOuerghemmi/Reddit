@@ -6,9 +6,11 @@ import 'package:redit/consts/helper_text_style.dart';
 import 'package:redit/model.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:redit/screens/controller.dart';
-import 'package:redit/screens/widgets/comment_widget.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:redit/screens/widgets/delete_pop.dart';
+
+
+//icons for post
 
 class InfoIconsWidgets extends StatefulWidget {
   final Post post;
@@ -102,7 +104,7 @@ class _InfoIconsWidgetsState extends State<InfoIconsWidgets> {
     );
   }
 }
-
+///icons for comment
 class InfoCommentWidget extends StatefulWidget {
   final Comment comment;
   const InfoCommentWidget({super.key, required this.comment});

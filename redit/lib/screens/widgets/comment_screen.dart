@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:redit/consts/colors.dart';
-import 'package:redit/consts/helper_padding.dart';
-import 'package:redit/consts/helper_text_style.dart';
 import 'package:redit/model.dart';
-import 'package:redit/screens/post_screen.dart';
+import 'package:redit/screens/widgets/comment_card.dart';
 
 
 @override
